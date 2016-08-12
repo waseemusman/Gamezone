@@ -11,9 +11,43 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!--fa fa -->
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!--Css-->
+  <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
+
+<!--navbar-->
+<nav class="navbar-default nav navbar-fixed-top">
+  <a class="navbar-brand brand" href="home.html"><img src="logo.png" height="70px" width="80px" ></a>
+  <div id="mySidenav" class="sidenav" >
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i>
+    </a>
+      <a href="home.html"><small>Home</small></a>
+      <a href="xbox.html"><small>Xbox Game</small></a>
+      <a href="playstation.html"><small>Play Station Game</small></a>
+      <a href="pc.html"><small>PC Game</small></a>
+  </div>
+
+  <div id="main">
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()"><i class="fa fa-align-justify" aria-hidden="true"></i>Menu</span>
+  </div>
+
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "260px";
+      document.getElementById("main").style.marginLeft = "260px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+  </script>
+</nav>
 <!-- 1st slider -->
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -68,7 +102,7 @@
 
 <div class="jumbotron text-center">
   <br/><br/><br/><br/><br/> <br/><br/><br/>
-  <a href="...."><h1>Latest Games</h1></a>
+  <a href="xbox latest.html"><h1>Latest Games</h1></a>
   <p>From action to sports, shooters to racers, we've got you covered.</p> 
 </div>
 
@@ -135,7 +169,7 @@
 
 <div class="jumbotron text-center">
   <br/><br/><br/><br/><br/> <br/><br/><br/>
-  <a href="..."><h1>Coming Soon</h1></a>
+  <a href="xbox upcoming.html"><h1>Coming Soon</h1></a>
   <p>From action to sports, shooters to racers, we've got you covered.</p> 
 </div>
 
@@ -187,10 +221,52 @@
   </div>
 </div>
 
-<!-- footer -->
-
+<!--Footer-->
 <footer>
+  <div class="container foot">
+    <div class="row text">
+      <div class="col-md-4 col-sm-4">
+        <a href="xbox.html"><h4>XBOX</h4></a><hr class="line" />
+        <a href="xbox latest.html"><h6>Forza</h6></a>
+        <a href="xbox latest.html"><h6>Quantum Break</h6></a>
+        <a href="xbox latest.html"><h6>Hitman</h6></a>
+        <a href="xbox latest.html"><h6>Witcher</h6></a>
+        <a href="xbox latest.html"><h6>Devil May Cry</h6></a> 
+      </div>
 
+      <div class="col-md-4 col-sm-4">
+        <a href="playstation.html"><h4>Play Station</h4></a><hr hr class="line"/>
+        <a href="ps4 upcoming.html"><h6>Deus Ex</h6></a>
+        <a href="ps4 upcoming.html"><h6>Final Fantasy</h6></a>
+        <a href="ps4 upcoming.html"><h6>Resident Evil</h6></a>
+        <a href="ps4 upcoming.html"><h6>Abolver</h6></a>
+        <a href="ps4 upcoming.html"><h6>For Honor</h6></a>  
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <a href="pc.html"><h4>PC</h4></a><hr hr class="line"/>
+        <a href="Pclatest.html"><h6>Dark souls</h6></a>
+        <a href="Pclatest.html"><h6>Street Fighter</h6></a>
+        <a href="Pclatest.html"><h6>Batman</h6></a>
+        <a href="Pclatest.html"><h6> Xcom</h6></a>
+        <a href="Pclatest.html"><h6>Abzu</h6></a> 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <a href="home.html"><img src="logo.png"></a>
+      </div>
+    </div>
+
+    <div class="row btm">
+      <div class="col-md-12">
+        <a href="#"><h3>Join US</h3></a>
+        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
 </footer>
 
 </body>
