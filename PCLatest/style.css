@@ -16,12 +16,13 @@
     background-color: RGB(241, 243, 249);
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 70px !important;
     display: block;
 }
 a:hover{
     background-color:rgba(146, 233, 240, 0.73);
     color:RGBA(89, 81, 81, 0.62) !important;
+    text-decoration: none;
 }
 .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -78,11 +79,11 @@ a:hover{
 #polina { 
   font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
   font-weight:100; 
-  background: rgba(0,0,0,0.3);
+  background:rgba(0, 0, 0, 0.72);
   color: white;
   padding: 2rem;
   width: 33%;
-  margin:20rem !important;
+  margin:10rem !important;
   float: left;
   font-size: 1.2rem;
 }
@@ -101,11 +102,11 @@ h1 {
 #polin { 
   font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
   font-weight:100; 
-  background: rgba(0,0,0,0.3);
+  background:rgba(0, 0, 0, 0.72);
   color: white;
   padding: 2rem;
   width: 33%;
-  margin:20rem;
+  margin:10rem;
   float: right;
   font-size: 1.2rem;
 }
@@ -115,15 +116,52 @@ h1 {
   letter-spacing: .3rem;
 }
 
+/*PC*/
+.pcimg { 
+  width: 100%;
+  margin-top:150px; 
+  background-size: cover;
+}
+#pcolin { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background:rgba(0, 0, 0, 0.72);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:10rem;
+  float: left;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
 /*footer*/
 .foot{
   width: 100%;
-  height: 300px;
   display: flex;
   align-items: flex-end;
   background-color: white;
 }
-hr{
-  width: 100px !important;
-  height: 4px !important;
+.line{
+  color: black;
+  width: 200px !important;
+  height: 15px !important;
+}
+.text{
+  margin-bottom: 78px;
+  margin-top: 10px;
+  color: black;
+  margin-left: 20px;
+}
+.join{
+  margin-left:465px; 
+}
+.btm{
+  margin-left: 190px !important;
+  margin-bottom: 80px !important;
+  text-align: -moz-center;
+  float: left;
 }
