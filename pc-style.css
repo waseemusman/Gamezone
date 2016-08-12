@@ -11,8 +11,9 @@ a{
 }
 
 .text-center{
+	color: #ffffff;
 	font-family: cursive;
-	background-image: url("ps4 background image.png");
+	background-image: url("pc-background.png");
 	background-size: 100% 100%; 
 }
 .banner {
@@ -30,22 +31,24 @@ a{
 	left: 90px;
 	color: #000000;
 }
-.edge{
+.Halo{
 	width: 100%;
 	height: 750px;
 	min-height: 100%;
-	background-image: url("mirror's edge catalyst.jpg");
-	background-size: 100% 100%;   
+	background-image: url("Dishonored 2.jpg");
+	background-size: 100% 100%;
+	color: #ffffff;  
 }
 
-.Titanfall{
+.Witcher{
 	width: 100%;
 	height: 750px;
 	min-height: 100%;
-	background-image: url("Titanfall.jpg");
+	background-image: url("XCOM 2.jpg");
 	background-size: 100% 100%;
 	color: #ffffff;
     }
 
   /*----------footer------*/
-   
+    
+
