@@ -116,6 +116,28 @@ h1 {
   letter-spacing: .3rem;
 }
 
+/*PC*/
+.pcimg { 
+  width: 100%;
+  margin-top:150px; 
+  background-size: cover;
+}
+#pcolin { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background:rgba(0, 0, 0, 0.72);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:10rem;
+  float: left;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
 /*footer*/
 .foot{
   width: 100%;
